@@ -9,6 +9,8 @@ git clone https://github.com/EmptyLs/Deauth_Wifi
 
 cd Deauth_Wifi
 
+chmod +x install.sh
+
 ./install.sh
 
 #Запуск программы
