@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Загрузка скрипта..."
+sudo python /prog/Wifi_deauth/setup.py
