@@ -1,9 +1,11 @@
 # Deauth_Wifi
 
-#install
+#Установка
+
 git clone https://github.com/EmptyLs/Deauth_Wifi
 cd Deauth_Wifi
 ./install.sh
 
-#start
+#Запуск программы
+
 wifi_deauth
