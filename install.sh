@@ -2,6 +2,7 @@
 
 echo "Устонавливаем программу. Пожалуйста подождите, это может занять некоторое времья!"
 cp -r install/wifi_deauth /usr/sbin/
+chmod 777 /usr/sbin/wifi_deauth
 
 apt install -y gnome-terminal
 pip install colorama
