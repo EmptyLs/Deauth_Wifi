@@ -56,7 +56,7 @@ def start():
 	elif(a == "6"):
 		wlan = input(Fore.YELLOW + f"\nВведите название своего адаптера (по умолчанию {Fore.BLUE}wlan0mon{Fore.YELLOW}): {Fore.BLUE}")
 		os.system(f'airmon-ng stop {wlan}')
-		os.system('service NetworkManager start')
+		os.system('systemctl start NetworkManager')
 		print(Fore.RED + "Режим работы адаптера востоновлен\n")
 		start()
 		
